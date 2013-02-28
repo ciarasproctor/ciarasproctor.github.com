@@ -1,0 +1,26 @@
+Introduction to Computer Science
+
+Setup:
+In order to use AppInventor, we have to get a few things set up. First, we need a gmail account. If you do not have an account, you will need to sign up for one. After you sign up for a gmail account, you need to set up your computer so that you can use AppInventor. Follow the instructions found here http://appinventor.mit.edu/explore/content/setup-mit-app-inventor.html
+After you have that set up, you’re ready to begin your first activity. Let’s get going!
+
+
+Activity One:
+In this activity, we are going to do a few things. We are going to get familiar with AppInventor and different parts of the program. We are also going to make your first app, a cat that will purr when you pet it. 
+Let’s get started! Before we can dive in, we need to know a few things about AppInventor. When you are using AppInventor, you will need to have three different windows open, the Designer, the Blocks Editor, and the Emulator. In the App Inventor Designer, you control what the person using your app sees. In the Blocks Editor, you control what your app does. In the Emulator, you will be able to test your app. Let’s have a closer look at the Designer.
+When you sign in to AppInventor, the Designer opens in your browser window. Here, you can drag and drop different parts of the app. When you start a new project, you will want to drag the pieces of your app from the Palette to the Viewer. In the Viewer, you see something that looks like a phone screen. This is not a surprise, because when you drag components from the Palette onto the Viewer, you are telling your application where you want its pieces to go. After you add components to the Viewer, you will see that they show up in the next box, the Component list. This list will help you keep track of the components that are a part of your app. Each component has settings that you can change and things that you can add to it in the Properties pane. The Properties let you control exactly how each component looks.
+Let’s have a quick review! 
+Where is Palette? the Viewer? the Components list? the Properties?
+The <Viewer> is where I add components to my app.
+The <Properties> lets me control what each component looks like.
+The <Component> is a piece of the app that the user can see or hear.
+Everything in the Designer window is a part of what we call the interface. The interface is what the users see and interact with. If we want the app to do something when the user interacts with it, we need to use the Blocks Editor in order to tell the app what to do.
+We can open the Blocks Editor from the Designer by clicking the button that says “Open the Blocks Editor”. Just like the Designer, the Blocks Editor has a few parts.
+On the left, you can select from three different palettes; the Built-In palette, the My Blocks palette, and the Advanced palette. These three palettes let you pick out the building blocks that tell your program what to do. There are a lot of useful blocks that we will learn about as we go through these activities. In addition to the Blocks Palettes, there is a large empty space on the right of the palettes. This is the editor, and it is where all of your code blocks will go. Once you have completed your code blocks, you will want to test your code using the emulator. In order to set up the emulator, click "New emulator" on the top right corner of the Blocks Editor. This will start the emulator in a new window, which may take a few moments. When the emulator is done setting up, it will look just like an Android phone screen.
+
+Now that you know the names of all of the pieces that we will need, let's get started with your first app!
+
+Hello Purr
+We are going to make an app that has a picture of a cat. When you pet the cat by touching the picture, the app will make a purring sound. Before we get started, you will need to download a few things. Download the following picture and purring noises. It order to download them, right click on each link and click "Save as" or "Save target as". Then pick a spot on your computer and save. Remember where you have saved them because we will need to find them later! 
+
+The first thing that we want to do is to design what our app will look like. Let's open the Designer. 
