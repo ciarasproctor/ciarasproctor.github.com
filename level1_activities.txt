@@ -10,7 +10,7 @@ In this activity, we are going to do a few things. We are going to get familiar 
 Let’s get started! Before we can dive in, we need to know a few things about AppInventor. When you are using AppInventor, you will need to have three different windows open, the Designer, the Blocks Editor, and the Emulator. In the App Inventor Designer, you control what the person using your app sees. In the Blocks Editor, you control what your app does. In the Emulator, you will be able to test your app. Let’s have a closer look at the Designer.
 When you sign in to AppInventor, the Designer opens in your browser window. Here, you can drag and drop different parts of the app. When you start a new project, you will want to drag the pieces of your app from the Palette to the Viewer. In the Viewer, you see something that looks like a phone screen. This is not a surprise, because when you drag components from the Palette onto the Viewer, you are telling your application where you want its pieces to go. After you add components to the Viewer, you will see that they show up in the next box, the Component list. This list will help you keep track of the components that are a part of your app. Each component has settings that you can change and things that you can add to it in the Properties pane. The Properties let you control exactly how each component looks.
 Let’s have a quick review! 
-Where is Palette? the Viewer? the Components list? the Properties?
+Where is the Palette? the Viewer? the Components list? the Properties?
 The <Viewer> is where I add components to my app.
 The <Properties> lets me control what each component looks like.
 The <Component> is a piece of the app that the user can see or hear.
@@ -24,3 +24,36 @@ Hello Purr
 We are going to make an app that has a picture of a cat. When you pet the cat by touching the picture, the app will make a purring sound. Before we get started, you will need to download a few things. Download the following picture and purring noises. It order to download them, right click on each link and click "Save as" or "Save target as". Then pick a spot on your computer and save. Remember where you have saved them because we will need to find them later! 
 
 The first thing that we want to do is to design what our app will look like. Let's open the Designer. 
+
+We know that we will need two things: a picture of a cat that we will click on and a sound. We will also add directions for whoever is using our app. 
+
+The first thing that we will add is the picture of a cat. An easy way to have components that we can click on is by creating them as a button. In this app, we will make a button display our image of a cat. Drag a button onto the Viewer from the Palette. Our button does not have a picture of our cat yet. We can add the picture by changing the properties of the  button. First, make sure that the component that we just added, "Button1", is highlighted in the Compnents list. Under properties, find the image field. Right now it should say "None..." Click where it says "None..." and select upload new. Go to where you saved the picture that you downloaded earlier and select it to upload. Then, go back to the Image section of properties. Select the picture that you just uploaded and hit ok. You should see the button change so that it shows the cat picture. If you look more closely, you will see that there is still text in the button. We can remove this by changing the text field of the button's properties. Find the button's text field under properties, delete "Text for Button1" and hit enter. The text disappeared! 
+
+Now that we have the picture of the cat set up, let's add the purring sound. In the palette, select "Media". Drag a sound component over to the Viewer. Just like we needed to tell AppInventor to use the picture of the cat of the button, we need to tell AppInventor which sound to use for this sound. Make sure that the sound component, "Sound1", is highlighted in the components list. Find the field called "Source". We need to upload the purring sound that we downloaded earlier. Select "Upload new" and add the sound that we downloaded. Hit ok. 
+
+We now have a button with a cat picture and a sound. We are going to add one more thing, a label. Select "Basic" on the Palette. Drag a label component under our button. We want to change the text for the label. Under Properties, change the text field from "Text for Label1" to "Pet the cat to hear it purr!" Try changing some of the other Label1 properties. When you like how the label looks, move on to the next section.
+
+Topics covered: 
+Buttons
+  Images
+  Text
+Sound
+Adding sources
+Labels
+  Text
+
+Now that our design is done, it's time to move on to the Blocks Editor. If you have not already, start the Blocks Editor by clicking "Open Blocks Editor" in the Designer. When the Blocks Editor is open, start a new emulator. After the emulator is done opening, select it from the "Connect to Device" dropdown menu in the upper right of the Blocks Editor. Your app should show up in the emulator. This can take a few minutes.
+
+We are all set to start telling our program what to do. Before we figure out how to write the program, let's write out what we want our program to do. This app is simple. When the button is pressed, we want to hear the purr sound.
+
+Now that we know exactly what we want our program to do, it is time to make it do that using our code blocks. Click on the My Blocks Palette in the Blocks Editor. Here we can see all of the components that we added in the designer. Click on the Button1 component. REmember that this is the button that shows the picture of the cat! After you click on Button1 in the My Blocks Palette, you will see a list of code blocks that we can use with Button1. The first block in the list is "when Button1.Click do" Before we move on, let's take a minute to look at what this means. 
+"when" is used when we want the app to react to an action. We call these actions events. In this case, our action is a click.
+"Button1.Click" is the component and action that we are paying attention to. We don't care if the user clicks somewhere else, we only want the cat to purr if the user clicks on the cat picture.
+"do" tells us that we want to take an action. 
+So, when the user clicks on the button that shows the cat picture, we want to do something.
+
+We need to tell AppInventor what to do once the button is clicked. Drag the code block on to the Editor. Since we want to play the sound that we added earlier, we need to add that to the code block. Click on the My Blocks Palette again. Select Sound1. From the list of blocks that appears, drag "Sound1.Play" into the "when Button1.Click do" code block. Now, we have told AppInventor that when the button is clicked, we want to play the sound. Test out your app using the emulator to make sure that it works.
+
+Congratulations! You have made your first app! If you would like to put it on a phone, follow the instructions here.
+
+Now that you have made an app of a cat that purrs when you pet it, can you make an app of a lion that roars when you pet it? Download the picture of a lion and the roaring sound below and give it a try. If you get stuck, click here for help.
